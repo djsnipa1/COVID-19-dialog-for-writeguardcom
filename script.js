@@ -34,6 +34,7 @@ $(function () {
     icons: {
       primary: "icon-fas fa-biohazard"
     },
+    title: '<span class="ui-icon ui-icon-home"></span> Example Dialog'
    });
 
   $("#opener").on("click", function () {
@@ -41,13 +42,13 @@ $(function () {
   });
 });
 
-var dialog = $("#dialog").dialog();
+// var dialog = $("#dialog").dialog();
 
-dialog.data( "uiDialog" )._title = function(title) {
-    title.html( this.options.title );
-};
+// dialog.data( "uiDialog" )._title = function(title) {
+//     title.html( this.options.title );
+// };
 
-dialog.dialog('option', 'title', '<span class="fas fa-biohazard"></span> Example Dialog');
+// dialog.dialog('option', 'title', '<span class="fas fa-biohazard"></span> Example Dialog');
 
 
 // jQuery UI old icon
