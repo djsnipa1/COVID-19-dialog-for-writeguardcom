@@ -15,7 +15,8 @@ $(function () {
       effect: "explode",
       duration: 1000
     },
-    minWidth: 550
+    minWidth: 550,
+    title: '<span class="fas fa-biohazard"></span> Example Dialog'
   });
 });
 
