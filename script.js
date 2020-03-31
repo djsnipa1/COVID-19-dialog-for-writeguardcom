@@ -24,7 +24,10 @@ $(function () {
       effect: "explode",
       duration: 1000
     },
-    minWidth: 550
+    minWidth: 550,
+    icons: {
+      primary: "fas fa-biohazard"
+    }
   });
 
   $("#opener").on("click", function () {
