@@ -26,7 +26,8 @@ $(function () {
     },
     minWidth: 550,
     icons: {
-      primary: 'icon-fas fa-biohazard'
+      primary: "icon-fas fa-biohazard"
+    }
   });
 
   $("#opener").on("click", function () {
