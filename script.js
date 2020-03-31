@@ -16,7 +16,7 @@ $(function () {
       duration: 1000
     },
     minWidth: 550,
-    title: '<span class="fas fa-notes-medical fa-2x"></span><span class="fas fa-viruses"></span> Example Dialog'
+    title: '<span class="fas fa-notes-medical"></span><span class="fas fa-viruses"></span> Example Dialog'
   });
 });
 
