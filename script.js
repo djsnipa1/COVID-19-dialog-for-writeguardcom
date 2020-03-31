@@ -1,3 +1,9 @@
+jQuery.widget('ui.dialog', jQuery.extend({}, jQuery.ui.dialog.prototype, {
+    _title: function(titleBar) {
+        titleBar.html(this.options.title || '&#160;');
+    }
+}));
+
 $(function () {
   $("#dialog").dialog({
    autoOpen: true,
