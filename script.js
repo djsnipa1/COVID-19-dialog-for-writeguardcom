@@ -31,11 +31,7 @@ $(function () {
       duration: 1000
     },
     minWidth: 550,
-    icons: {
-      primary: "icon-fas fa-biohazard"
-    },
-    title: '<span class="ui-icon ui-icon-home"></span> Example Dialog'
-   });
+    });
 
   $("#opener").on("click", function () {
     $("#dialog2").dialog("open");
