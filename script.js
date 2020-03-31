@@ -13,7 +13,7 @@ $(function () {
       effect: "explode",
       duration: 1000
     },
-    minWidth: 600
+    minWidth: 400
   });
 
   $("#opener").on("click", function () {
