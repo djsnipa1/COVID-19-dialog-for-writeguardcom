@@ -1,5 +1,14 @@
 $(function () {
   $("#dialog").dialog({
+   autoOpen: true,
+    show: {
+      effect: "highlight",
+      duration: 600
+    },
+    hide: {
+      effect: "explode",
+      duration: 1000
+    },
     minWidth: 550
   });
 });
