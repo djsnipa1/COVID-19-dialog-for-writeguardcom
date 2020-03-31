@@ -36,7 +36,7 @@ $(function () {
 });
 
 // jQuery UI old icon
-$('#btn1').button({icons: {primary: 'ui-icon-volume-on'}});
+$('#btn1').button({icons: {primary: 'fa-biohazard'}});
 // Font Awesome Icon
 $('#btn2').button({icons: {primary: 'icon-volume-up'}});
 // Font Awesome but BIGGER
