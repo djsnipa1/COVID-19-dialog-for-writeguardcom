@@ -1,7 +1,8 @@
 {
   "scripts": [
     "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
-    "https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+    "https://code.jquery.com/ui/1.12.1/jquery-ui.js",
+    "https://kit.fontawesome.com/1c27eae74d.js"
   ],
   "styles": [
     "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
