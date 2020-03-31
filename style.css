@@ -1,1 +1,7 @@
-‎‎​
+.ui-widget-header {
+  background-color: orange;
+}
+
+.ui-widget-content {
+  background-color: yellow;
+}
