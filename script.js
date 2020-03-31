@@ -41,7 +41,7 @@ dialog.data( "uiDialog" )._title = function(title) {
     title.html( this.options.title );
 };
 
-dialog.dialog('option', 'title', '<span class="ui-icon ui-icon-home"></span> Example Dialog');
+dialog.dialog('option', 'title', '<span class="fas fa-biohazard"></span> Example Dialog');
 
 
 // jQuery UI old icon
