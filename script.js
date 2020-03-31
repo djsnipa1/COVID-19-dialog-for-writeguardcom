@@ -1,5 +1,7 @@
 $(function () {
-  $("#dialog").dialog();
+  $("#dialog").dialog({
+    minWidth: 550
+  });
 });
 
 $(function () {
