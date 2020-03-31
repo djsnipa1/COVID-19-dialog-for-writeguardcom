@@ -5,3 +5,9 @@
 .ui-widget-content {
   background-color: #ffe082;
 }
+
+.ui-button .ui-icon.biohasard {
+  background-image: url(your-path-to-normal-image-file.png);
+  width: your-icon-width;
+  height: your-icon-height;
+}
